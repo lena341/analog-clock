@@ -71,7 +71,7 @@ body {
   width: 50px;
   -webkit-transform: rotate(360deg);
           transform: rotate(360deg);
-  margin-top: -71px;
+  margin-top: -80px;
 }
 
 #hour6 {
@@ -115,13 +115,13 @@ body {
   width: 40px;
   -webkit-transform: rotate(44deg);
           transform: rotate(44deg);
-  margin-top: -64px;
+  margin-top: -56px;
   margin-left: 61px;
 }
 
 #min-pointer {
-  margin-top: -100px;
-  margin-left: 171px;
+  margin-top: -101px;
+  margin-left: 175px;
   background: #07D2FB;
   width: 4.5px;
   height: 100px;
@@ -132,8 +132,8 @@ body {
 }
 
 #hour-pointer {
-  margin-top: 55px;
-  margin-left: 168px;
+  margin-top: 50px;
+  margin-left: 175px;
   background: #07D2FB;
   height: 80px;
   width: 4.5px;
