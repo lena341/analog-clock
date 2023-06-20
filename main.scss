@@ -69,7 +69,7 @@ body{
 
 #hour5
 {
-    border-bottom: 2px solid #07D2FB;
+    border-bottom: $minutes;
     width: $width2;
     transform: rotate(50deg);
     margin-top: 55px;
