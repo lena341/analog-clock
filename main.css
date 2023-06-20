@@ -1,0 +1,144 @@
+body {
+  background-color: black;
+}
+
+#myClock {
+  border: 2px solid #fbfbff;
+  border-radius: 50%;
+  width: 340px;
+  height: 340px;
+  margin: auto;
+  -webkit-box-shadow: 0 6px 20px 0 rgba(240, 240, 240, 0.5);
+          box-shadow: 0 6px 20px 0 rgba(240, 240, 240, 0.5);
+}
+
+#hour12 {
+  border-bottom: 3px solid #07D2FB;
+  width: 50px;
+  margin-left: 145px;
+  margin-top: 25px;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+#hour1 {
+  border-bottom: 2px solid #21FCC7;
+  width: 40px;
+  -webkit-transform: rotate(125deg);
+          transform: rotate(125deg);
+  margin-top: 17px;
+  margin-left: 235px;
+}
+
+#hour2 {
+  border-bottom: 2px solid #21FCC7;
+  width: 40px;
+  -webkit-transform: rotate(140deg);
+          transform: rotate(140deg);
+  margin-top: 55px;
+  margin-left: 281px;
+}
+
+#hour3 {
+  border-bottom: 3px solid #07D2FB;
+  width: 50px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  margin-top: 69px;
+  margin-left: 292px;
+}
+
+#hour4 {
+  border-bottom: 2px solid #21FCC7;
+  width: 40px;
+  -webkit-transform: rotate(30deg);
+          transform: rotate(30deg);
+  margin-top: 64px;
+  margin-left: 280px;
+}
+
+#hour5 {
+  border-bottom: 2px solid #07D2FB;
+  width: 40px;
+  -webkit-transform: rotate(50deg);
+          transform: rotate(50deg);
+  margin-top: 55px;
+  margin-left: 234px;
+}
+
+#hour9 {
+  border-bottom: 3px solid #07D2FB;
+  width: 50px;
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+  margin-top: -71px;
+}
+
+#hour6 {
+  border-bottom: 3px solid #07D2FB;
+  width: 50px;
+  -webkit-transform: rotate(270deg);
+          transform: rotate(270deg);
+  margin-top: 15px;
+  margin-left: 147px;
+}
+
+#hour7 {
+  border-bottom: 2px solid #21FCC7;
+  width: 40px;
+  -webkit-transform: rotate(130deg);
+          transform: rotate(130deg);
+  margin-left: 73px;
+  margin-top: -18px;
+}
+
+#hour8 {
+  border-bottom: 2px solid #21FCC7;
+  width: 40px;
+  -webkit-transform: rotate(148deg);
+          transform: rotate(148deg);
+  margin-top: -51px;
+  margin-left: 25px;
+}
+
+#hour10 {
+  border-bottom: 2px solid #21FCC7;
+  width: 40px;
+  -webkit-transform: rotate(25deg);
+          transform: rotate(25deg);
+  margin-top: -75px;
+  margin-left: 12px;
+}
+
+#hour11 {
+  border-bottom: 2px solid #21FCC7;
+  width: 40px;
+  -webkit-transform: rotate(44deg);
+          transform: rotate(44deg);
+  margin-top: -64px;
+  margin-left: 61px;
+}
+
+#min-pointer {
+  margin-top: -100px;
+  margin-left: 171px;
+  background: #07D2FB;
+  width: 4.5px;
+  height: 100px;
+  -webkit-transform-origin: center bottom;
+          transform-origin: center bottom;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+}
+
+#hour-pointer {
+  margin-top: 55px;
+  margin-left: 168px;
+  background: #07D2FB;
+  height: 80px;
+  width: 4.5px;
+  -webkit-transform-origin: center bottom;
+          transform-origin: center bottom;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+}

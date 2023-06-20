@@ -1,0 +1,154 @@
+$minutes:2px solid #21FCC7;
+$central-minutes:3px solid #07D2FB;
+$width1: 50px;
+$width2: 40px;
+$width3:4.5px;
+$margin-top1:55px;
+$background1:#07D2FB;
+$transform-origin-value: center bottom;
+$transform-rotate-value: rotate(0deg);
+
+body{
+    background-color:black;
+}
+
+#myClock
+{
+    border: 2px solid #fbfbff;
+    border-radius: 50%;
+    width: 340px;
+    height: 340px;
+    margin: auto;
+    box-shadow: 0 6px 20px 0 rgba(240, 240, 240, 0.50);
+}
+
+#hour12
+{
+    border-bottom: $central-minutes;
+    width: $width1;
+    margin-left: 145px;
+    margin-top: 25px;
+    transform: rotate(90deg);
+}
+
+#hour1
+{
+    border-bottom: $minutes;
+    width: $width2;
+    transform: rotate(125deg);
+    margin-top: 17px;
+    margin-left: 235px;
+}
+
+#hour2
+{
+    border-bottom: $minutes;
+    width: $width2;
+    transform: rotate(140deg);
+    margin-top: 55px;
+    margin-left: 281px;
+}
+
+#hour3
+{
+    border-bottom: $central-minutes;
+    width: $width1;
+    transform: rotate(0deg);
+    margin-top: 69px;
+    margin-left: 292px;
+}
+
+#hour4
+{
+    border-bottom: $minutes;
+    width: $width2;
+    transform: rotate(30deg);
+    margin-top: 64px;
+    margin-left: 280px;
+}
+
+#hour5
+{
+    border-bottom: 2px solid #07D2FB;
+    width: $width2;
+    transform: rotate(50deg);
+    margin-top: 55px;
+    margin-left: 234px;
+}
+
+#hour9
+{
+    border-bottom: $central-minutes;
+    width: $width1;
+    transform: rotate(360deg);
+    margin-top: -71px;
+}
+
+#hour6
+{
+    border-bottom: $central-minutes;
+    width: $width1;
+    transform: rotate(270deg);
+    margin-top: 15px;
+    margin-left: 147px;
+}
+
+#hour7
+{
+    border-bottom: $minutes;
+    width: $width2;
+    transform: rotate(130deg);
+    margin-left: 73px;
+    margin-top: -18px;
+}
+
+#hour8
+{
+    border-bottom: $minutes;
+    width: $width2;
+    transform: rotate(148deg);
+    margin-top: -51px;
+    margin-left: 25px;
+}
+
+#hour10
+{
+    border-bottom: $minutes;
+    width: $width2;
+    transform: rotate(25deg);
+    margin-top: -75px;
+    margin-left: 12px;
+}
+
+#hour11
+{
+    border-bottom: $minutes;
+    width: $width2;
+    transform: rotate(44deg);
+    margin-top: -64px;
+    margin-left: 61px;
+}
+
+#min-pointer
+{
+    margin-top: -100px;
+    margin-left: 171px;
+    background: $background1;
+    width: $width3;
+    height: 100px;
+    transform-origin: $transform-origin-value;
+    transform: $transform-rotate-value;
+}
+
+#hour-pointer
+{
+    margin-top: 55px;
+    margin-left: 168px;
+    background: $background1;
+    height: 80px;
+    width: $width3;
+    transform-origin: $transform-origin-value;
+    transform: $transform-rotate-value;
+}
+
+
