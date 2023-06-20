@@ -81,7 +81,7 @@ body{
     border-bottom: $central-minutes;
     width: $width1;
     transform: rotate(360deg);
-    margin-top: -71px;
+    margin-top: -80px;
 }
 
 #hour6
@@ -116,7 +116,7 @@ body{
     border-bottom: $minutes;
     width: $width2;
     transform: rotate(25deg);
-    margin-top: -75px;
+    margin-top: -74px;
     margin-left: 12px;
 }
 
@@ -125,14 +125,14 @@ body{
     border-bottom: $minutes;
     width: $width2;
     transform: rotate(44deg);
-    margin-top: -64px;
+    margin-top: -56px;
     margin-left: 61px;
 }
 
 #min-pointer
 {
-    margin-top: -100px;
-    margin-left: 171px;
+    margin-top: -101px;
+    margin-left: 175px;
     background: $background1;
     width: $width3;
     height: 100px;
@@ -142,8 +142,8 @@ body{
 
 #hour-pointer
 {
-    margin-top: 55px;
-    margin-left: 168px;
+    margin-top: 50px;
+    margin-left: 175px;
     background: $background1;
     height: 80px;
     width: $width3;
