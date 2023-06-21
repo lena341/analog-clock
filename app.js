@@ -10,5 +10,5 @@ function clock()
    rotateMinPointer.style.transform = `rotate(${6 * mins}deg)`;
 }
 
-setInterval(clock(), 1000);
+setInterval("clock()", 1000);
 
