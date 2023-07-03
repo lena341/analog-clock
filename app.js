@@ -2,7 +2,7 @@ window.document.addEventListener("DOMContentLoaded", clock, false);
 function clock()
 {
    const date = new Date();
-   const hours = date.getHours() +1;
+   const hours = date.getHours();
    const mins = date.getMinutes();
    const rotateHourPointer = document.getElementById("hour-pointer");
    rotateHourPointer.style.transform = `rotate(${30 * hours}deg)`;
